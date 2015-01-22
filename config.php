@@ -38,7 +38,7 @@ $config->debug = (getenv('PW_ENV') == 'production') ? false : true;
 $config->sessionFingerprint = false;
 
 // So RDS can take backups
-$config->dbEngine = 'InnoDB';
+// $config->dbEngine = 'InnoDB';
 
 ini_set('session.save_handler', 'redis');
 ini_set('session.save_path', getenv('PW_CACHE_HOST'));
