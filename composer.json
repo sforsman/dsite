@@ -1,0 +1,18 @@
+{
+    "name": "sforsman/dsite",
+    "description": "A blank site-template for AWS deployments",
+    "keywords": ["pw","processwire"],
+    "homepage": "http://github.com/sforsman/dsite",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastian Forsman",
+            "email": "sebastian.forsman@gmail.com",
+            "homepage": "http://github.com/sforsman"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    }
+}
