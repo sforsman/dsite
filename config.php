@@ -40,8 +40,8 @@ $config->sessionFingerprint = false;
 // So RDS can take backups
 $config->dbEngine = 'InnoDB';
 
-ini_set('session.save_handler', 'redis');
-ini_set('session.save_path', getenv('PW_CACHE_HOST'));
+ini_set('session.save_handler', getenv('PW_CACHE_DRIVER'));
+ini_set('session.save_path',    getenv('PW_CACHE_HOST'));
 
 /*** INSTALLER CONFIG ********************************************************************/
 
